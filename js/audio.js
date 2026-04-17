@@ -4,7 +4,7 @@ export class AudioManager {
     constructor() {
         this.audio = document.getElementById('bg-audio');
         // music default
-        this.defaultAudioUrl = 'assets/musics/sombadypleasure.mp3';
+        this.defaultAudioUrl = 'https://syafiramyworld.vercel.app/assets/musics/sombadypleasure.mp3';
         this.currentAudioUrl = null;
         this.isPlaying = false;
         this.isAudioLoaded = false;
